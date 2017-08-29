@@ -66,9 +66,9 @@ You will need to tag your instances in order for them to be backed up, below are
 
 | Tag Key           | Tag Value                           | Notes |
 | -------------     |:-------------:                      | -----:|
-| Backup            |                                     | Value Not Needed |
-| Retention         | *Number of Days to Retain Snapshot* | Default is 7 Days| 
-
+|Backup             |                                     | Value Not Needed |
+|Retention          | *Number of Days to Retain Snapshot* | Default is 7 Days| 
+|Skip_Backup_Volumes| volume id(s) in CSV string          | List either a single volume-id, or multiple volumes-ids in a Comma Separated Value String|
 ## More Info
 
 
