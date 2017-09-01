@@ -1,6 +1,5 @@
 # AWS-Lambda_EBS-snapshots
 AWS Lambda triggering EBS snapshots
-Backup deletion code will be updated soon
 
 
 
@@ -54,7 +53,7 @@ Next create an IAM role also called "lambda-ebs_role" select "AWS Lambda" as the
 ## Add the SNS Topics ARN you want publish as a Lambda environment variable "aws_sns_arn"
 
 This is optional environment variable if you want publish any topic, so you might receive email notification
-once EBS backing up was executed.
+once EBS backing up has been executed.
 
 ## Create the Lambda Functions
 
